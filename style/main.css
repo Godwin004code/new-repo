@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body header {
+  width: 100%;
+}
+
+body header .header {
+  width: 90%;
+  margin: 1em auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+body header .header .request-btn button {
+  padding: .5em .8em;
+  border-radius: 20px;
+  border: none;
+}
+
+body header .header .nav ul {
+  width: 40%;
+  display: flex;
+}
+
+body header .header .nav ul li {
+  list-style: none;
+  padding: 0 1em;
+}
+
+body header .header .nav ul li a {
+  text-decoration: none;
+}
+
+body main {
+  width: 100%;
+}
+
+body main .main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body main .main .generation {
+  display: flex;
+  margin-left: auto;
+  background: re;
+  justify-content: space-between;
+}
+
+body main .main .generation .next-gen {
+  width: 100%;
+}
+
+body main .main .generation .next-gen h1 {
+  font-size: 40px;
+  font-weight: 400;
+  width: 60%;
+}
+
+body main .main .generation .next-gen p {
+  width: 80%;
+}
+
+body main .main .generation .img-gen {
+  margin-right: -8em;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 255, 0, 0.4);
+  background-position: left;
+}
+
+body main .main .generation .img-gen img {
+  width: 100%;
+  height: 80%;
+}
+
+body .choose {
+  width: 50%;
+  margin: 0 0 3em 0;
+}
+
+body .choose p {
+  width: 85%;
+}
+
+body .boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+body .boxes .box {
+  width: 20%;
+}
+
+body .boxes .box h2 {
+  margin: 1em 0;
+}
+
+body .articles {
+  margin: 0 0 2em 0;
+}
+
+body .articles .flex-article {
+  display: flex;
+  justify-content: space-between;
+}
+
+body .articles .flex-article .article {
+  width: 20%;
+}
+
+body .articles .flex-article .article img {
+  width: 100%;
+  height: 60%;
+}
+
+body .articles h1 {
+  margin: 2em 0;
+}
+
+body footer {
+  width: 100%;
+}
+
+body footer .footer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+body footer .footer-sect-1 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */
